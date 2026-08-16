@@ -14,4 +14,5 @@ Prevents entities of specified types or tags from mistakenly being mass cleared 
 - clear
 - reload
 
-To intentionally clear protected entities, use /forcekill (identical to /kill but without entity protection)
+## Info
+- To intentionally clear protected entities, use /forcekill (identical to /kill but without entity protection)
