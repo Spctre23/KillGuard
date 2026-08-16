@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "killguard",
+	"version": "${version}",
+	"name": "KillGuard",
+	"description": "Prevents entities of specified types or tags from mistakenly being cleared with /kill",
+	"authors": [
+		"Spctre"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/killguard/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"killguard.KillGuard"
+		]
+	},
+	"mixins": [
+		"killguard.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
