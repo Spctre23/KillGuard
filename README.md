@@ -2,7 +2,7 @@
 
 ## Description
 Prevents entities of specified types or tags from mistakenly being mass cleared with /kill.
-- Useful for preventing block entities used in builds like item frames or paintings from being mistakenly unaccounted for in an entity wipe.
+- Useful for preventing block entities used in builds like item frames or paintings from being mistakenly cleared in an entity wipe.
 - Protected tags / entities are stored in a persistent config. They can be added / removed with subcommands.
 
 ## Subcommands (parent command is /killguard)
