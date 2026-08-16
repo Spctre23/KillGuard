@@ -2,7 +2,7 @@
 
 ## Description
 A server-side fabric mod for Minecraft 26.2 that prevents entities of specified types or tags from mistakenly being mass cleared with /kill.
-- Useful for preventing block entities used in builds like item frames or paintings from being mistakenly cleared in an entity wipe.
+- Useful for preventing block entities used in builds like item frames or paintings from being mistakenly cleared in an entity wipe, without having to write selectors every time for lazy people like me.
 - Protected tags / entities are stored in a persistent config. They can be added / removed with subcommands.
 
 ## Subcommands (parent command is /killguard)
