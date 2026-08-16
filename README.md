@@ -1,9 +1,17 @@
 # KillGuard
 
-## Setup
+## Description
+Prevents entities of specified types or tags from mistakenly being mass cleared with /kill.
+- Useful for preventing block entities used in builds like item frames or paintings from being mistakenly unaccounted for in an entity wipe.
+- Protected tags / entities are stored in a persistent config. They can be added / removed with subcommands.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## Subcommands (parent command is /killguard)
+- addtag
+- addtype
+- removetag
+- removetype
+- list
+- clear
+- reload
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+To intentionally clear protected entities, use /forcekill (identical to /kill but without entity protection)
