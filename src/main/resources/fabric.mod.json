@@ -8,8 +8,8 @@
 		"Spctre"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Spctre23/KillGuard",
+		"sources": "https://github.com/Spctre23/KillGuard"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/killguard/icon.png",
